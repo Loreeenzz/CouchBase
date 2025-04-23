@@ -146,11 +146,12 @@ export default function PPTHolder({ slides }: PPTHolderProps) {
           >
             {isFullscreen ? (
               // In fullscreen mode, center the image with proper scaling
-              <div className="w-full h-screen flex items-center justify-center p-8">
+              <div className="w-full h-screen flex items-center justify-center bg-black">
                 <img
                   src={slides[currentSlide] || "/placeholder.svg"}
                   alt={`Slide ${currentSlide + 1}`}
-                  className="max-w-[90%] max-h-[90vh] w-auto h-auto object-contain"
+                  className="w-full h-full object-contain"
+                  style={{ maxHeight: '100vh' }}
                 />
               </div>
             ) : (

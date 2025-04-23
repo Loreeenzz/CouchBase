@@ -14,9 +14,7 @@ export default function Home() {
     <main className="min-h-screen py-8">
       <div className="container max-w-5xl mx-auto px-4">
         <Hero />
-        <section className="pt-10">
-          <PPTHolder slides={slideImages} />
-        </section>
+        <PPTHolder slides={slideImages} />
       </div>
     </main>
   );

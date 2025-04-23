@@ -70,7 +70,7 @@ export default function NavBar() {
                   isMobile
                 />
                 <NavItem
-                  href="/Students"
+                  href="/students"
                   icon={<ScrollText className="h-5 w-5 text-blue-500" />}
                   label="Student List"
                   isMobile
@@ -89,7 +89,7 @@ export default function NavBar() {
               label="About"
             />
             <NavItem
-              href="/ai-assistant"
+              href="/students"
               icon={<ScrollText className="h-5 w-5 text-blue-500" />}
               label="Student List"
             />
